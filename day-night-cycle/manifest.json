@@ -1,0 +1,11 @@
+{
+    "id": "com.subwaybuilder.day-night-cycle",
+    "name": "Day/Night Theme Cycle",
+    "description": "Automatically switches between light and dark theme based on in-game time of day. Day (6am-6pm) uses light theme, night uses dark theme.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Subway Builder Team"
+    },
+    "main": "index.js",
+    "tags": ["theme", "visual", "immersion"]
+}
