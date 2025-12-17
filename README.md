@@ -32,7 +32,7 @@ Shows a notification when the theme changes at sunrise/sunset.
 
 ## Creating Your Own Mods
 
-See the [Subway Builder Modding Guide](https://github.com/your-repo/subway-builder/blob/main/MODDING.md) for full documentation on the modding API.
+See the [Subway Builder Modding Guide](https://gist.github.com/ejfox/fcc7dcc4b97d7f6a43800cf384dc694b) for full documentation on the modding API.
 
 ## License
 
