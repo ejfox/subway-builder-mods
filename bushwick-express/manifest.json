@@ -1,0 +1,10 @@
+{
+    "id": "com.ejfox.bushwick-express",
+    "name": "Bushwick Express",
+    "description": "Connect Bushwick to Manhattan! A NYC career mission focused on serving the creative heart of Brooklyn.",
+    "version": "1.0.0",
+    "author": {
+        "name": "EJ Fox"
+    },
+    "main": "index.js"
+}

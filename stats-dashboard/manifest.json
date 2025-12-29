@@ -1,0 +1,10 @@
+{
+    "id": "com.ejfox.stats-dashboard",
+    "name": "Stats Dashboard",
+    "description": "Real-time transit stats with charts - mode share, ridership, and route performance",
+    "version": "1.0.0",
+    "author": {
+        "name": "EJ Fox"
+    },
+    "main": "index.js"
+}

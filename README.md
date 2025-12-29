@@ -30,6 +30,39 @@ Shows a notification when the theme changes at sunrise/sunset.
 
 **Files:** [`day-night-cycle/`](./day-night-cycle/)
 
+### Bushwick Express
+
+Custom NYC career mission that uses **geographic metrics** to track actual passenger flows from Bushwick to Lower Manhattan.
+
+- **Star 1**: Build 3 stations in Bushwick/Williamsburg area
+- **Star 2**: Transport 1,000 passengers from Bushwick to Lower Manhattan
+- **Star 3**: Transport 5,000 passengers from Bushwick to Lower Manhattan
+
+Uses bounding box origin-destination tracking to count actual commuters.
+
+**Files:** [`bushwick-express/`](./bushwick-express/)
+
+### Rush Hour Remix
+
+Customize AM/PM commute windows and simulate weekend demand boosts.
+
+- Adds settings sliders for AM/PM commute windows
+- Applies custom timing via `popTiming.setCommuteTimeRanges`
+- Weekend bonus based on total demand and ticket price
+- Optional weekend boost notifications
+
+**Files:** [`rush-hour-remix/`](./rush-hour-remix/)
+
+### Stats Dashboard
+
+Real-time transit statistics dashboard with charts.
+
+- Mode share breakdown (subway vs walking)
+- Ridership tracking over time
+- Route performance metrics
+
+**Files:** [`stats-dashboard/`](./stats-dashboard/)
+
 ## Creating Your Own Mods
 
 See the [Subway Builder Modding Guide](https://gist.github.com/ejfox/fcc7dcc4b97d7f6a43800cf384dc694b) for full documentation on the modding API.

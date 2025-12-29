@@ -1,0 +1,8 @@
+{
+    "id": "com.subwaybuilder.rush-hour-remix",
+    "name": "Rush Hour Remix",
+    "description": "Customize commute windows and simulate weekend demand boosts.",
+    "version": "1.0.0",
+    "author": { "name": "Your Name" },
+    "main": "mod.js"
+}
