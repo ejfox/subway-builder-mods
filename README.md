@@ -1,6 +1,8 @@
 # Subway Builder Mods
 
-A collection of mods for [Subway Builder](https://subwaybuilder.io), a subway/metro simulation game.
+A collection of ready-to-use mods for [Subway Builder](https://subwaybuilder.io), a subway/metro simulation game.
+
+> **Looking to create your own mods?** Check out [subwaybuilder-mod](https://github.com/ejfox/subwaybuilder-mod) - the official mod template with examples and TypeScript definitions.
 
 ## Installation
 
@@ -63,6 +65,17 @@ Beautiful Sankey diagram showing commuter flow through your transit system.
 - Real-time updates every 3 seconds
 
 **Files:** [`commute-sankey/`](./commute-sankey/)
+
+### KML/KMZ Route Export
+
+Export your metro routes to KML format for importing into Google Maps, Google Earth, and other GIS applications.
+
+- Routes exported as colored polylines with proper track geometry
+- Stations exported as labeled point markers with rail icons
+- Adds "Export Routes to KML" button to escape menu
+- Also exposes `window.exportMetroRoutesToKML()` for console use
+
+**Files:** [`kmz-export/`](./kmz-export/)
 
 ## Creating Your Own Mods
 
