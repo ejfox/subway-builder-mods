@@ -53,6 +53,17 @@ Customize AM/PM commute windows and simulate weekend demand boosts.
 
 **Files:** [`rush-hour-remix/`](./rush-hour-remix/)
 
+### Commute Sankey
+
+Beautiful Sankey diagram showing commuter flow through your transit system.
+
+- Visualizes flow from Commuters → Transport Mode → Routes → Arrived
+- Shows transit mode share percentage
+- Breaks down transit riders by your top 5 routes
+- Real-time updates every 3 seconds
+
+**Files:** [`commute-sankey/`](./commute-sankey/)
+
 ### Stats Dashboard
 
 Real-time transit statistics dashboard with charts.

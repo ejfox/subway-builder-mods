@@ -1,0 +1,10 @@
+{
+    "id": "com.ejfox.commute-sankey",
+    "name": "Commute Sankey",
+    "description": "Beautiful Sankey diagram showing commuter flow through your transit system",
+    "version": "1.0.0",
+    "author": {
+        "name": "EJ Fox"
+    },
+    "main": "index.js"
+}
