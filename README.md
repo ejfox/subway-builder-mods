@@ -64,16 +64,6 @@ Beautiful Sankey diagram showing commuter flow through your transit system.
 
 **Files:** [`commute-sankey/`](./commute-sankey/)
 
-### Stats Dashboard
-
-Real-time transit statistics dashboard with charts.
-
-- Mode share breakdown (subway vs walking)
-- Ridership tracking over time
-- Route performance metrics
-
-**Files:** [`stats-dashboard/`](./stats-dashboard/)
-
 ## Creating Your Own Mods
 
 See the [Subway Builder Modding Guide](https://gist.github.com/ejfox/fcc7dcc4b97d7f6a43800cf384dc694b) for full documentation on the modding API.
