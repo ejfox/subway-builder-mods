@@ -1,0 +1,12 @@
+{
+  "id": "com.metromaker.kmz-export",
+  "name": "KML/KMZ Route Export",
+  "description": "Export your metro routes to KML format for importing into Google Maps, Google Earth, and other GIS applications",
+  "version": "1.0.0",
+  "author": {
+    "name": "Metro Maker"
+  },
+  "main": "index.js",
+  "tags": ["utility", "export", "maps"],
+  "gameVersion": ">=0.12.0"
+}
