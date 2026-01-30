@@ -1,0 +1,8 @@
+{
+    "id": "com.subway-builder.canary",
+    "name": "API Canary",
+    "description": "Canary mod that validates all API functionality - throws errors on failure",
+    "version": "1.0.0",
+    "author": { "name": "Subway Builder Dev Team" },
+    "main": "index.js"
+}

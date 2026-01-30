@@ -1,0 +1,8 @@
+{
+    "id": "com.subway-builder.api-audit",
+    "name": "API Audit Test Mod",
+    "description": "Tests every modding API feature to verify implementation",
+    "version": "1.0.0",
+    "author": { "name": "Subway Builder Dev Team" },
+    "main": "index.js"
+}
