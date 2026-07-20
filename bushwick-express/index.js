@@ -28,7 +28,7 @@ whenAPIReady((api) => {
     console.log('[Bushwick Express] Loading...');
 
     // Get pre-defined NYC regions from the API
-    const { BUSHWICK, LOWER_MANHATTAN, WILLIAMSBURG } = api.career.REGIONS.NYC;
+    const { BUSHWICK, LOWER_MANHATTAN } = api.career.REGIONS.NYC;
 
     // Register the Bushwick Express mission with geographic goals
     const success = api.career.registerMission({

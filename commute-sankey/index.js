@@ -141,7 +141,7 @@
             updateData();
             var interval = setInterval(updateData, 3000);
             return function () { clearInterval(interval); };
-        }, []);
+        }, [setSankeyData, setStats]);
 
         // Empty state
         if (sankeyData.nodes.length === 0) {
@@ -215,7 +215,7 @@
         var CardTitle = api.utils.components.CardTitle;
         var CardContent = api.utils.components.CardContent;
 
-        function SankeyButton() {
+        var SankeyButton = function SankeyButton() {
             var stateHook = React.useState(false);
             var isOpen = stateHook[0];
             var setIsOpen = stateHook[1];
@@ -249,7 +249,7 @@
                     h(CardContent, { key: 'content' }, h(CommuteSankey)),
                 ]))),
             ]);
-        }
+        };
 
         api.ui.registerComponent('top-bar', {
             id: 'commute-sankey',
